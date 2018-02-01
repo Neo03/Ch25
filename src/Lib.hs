@@ -1,7 +1,6 @@
 {-# LANGUAGE InstanceSigs #-}
 
 module Lib where
-import Data.Monoid
 
 
 newtype Compose f g a = Compose { getCompose :: f (g a) }
